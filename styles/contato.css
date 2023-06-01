@@ -1,6 +1,5 @@
 .contato {
     background-color: var(--branco);
-    text-align: center;
     padding: 1em ;
 
 }
@@ -37,9 +36,8 @@
 .contato__email::placeholder {
     font-family: var(--font-principal);
     color: var(--azul);
-    text-align: center;
     background: url("../img/email2.svg") no-repeat;
-    background-position: 6em;
-    padding-left: 1em;
+    background-position: 1em;
+    padding-left: 3em;
     display: inline-block;
 }

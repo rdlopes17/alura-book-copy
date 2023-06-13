@@ -58,17 +58,23 @@
     text-transform: uppercase;
 }
 
-.container__botao{
+.container__botao, .container__titulo,.opcoes, .container__texto {
     display: none;
+    /*Faz o controle da exibição de acordo com o tamanho da tela 
+    com o uso da virgula aplicamos o msm estilo para diferentes seletores */
 }
 
-.container__titulo{
+/* .container__titulo{
     display: none;
 }
 
 .opcoes {
     display: none;
- } /*Faz o controle da exibição de acordo com o tamanho da tela  */
+ } //Faz o controle da exibição de acordo com o tamanho da tela  
+
+.container__texto {
+    display: none;
+}  */
 
 @media screen and (min-width:1024px) {
     
@@ -120,4 +126,29 @@
     .opcoes__botao {
         display: none;
     }
+  
 }
+
+@media screen and (min-width:1728px) {
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+       
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
+    }
+        
+}  

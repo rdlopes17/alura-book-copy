@@ -127,92 +127,96 @@
     <section class="carrossel">
       <h2 class="carrossel__titulo">Últimos lançamentos</h2>
       <!-- Slider main container -->
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+      <div class="carrossel__container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
 
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img
-              src="img/ApacheKafka.png"
-              alt="Livro sobre apache kafka e spring boot do alura book"
-            />
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="img/ApacheKafka.png"
+                alt="Livro sobre apache kafka e spring boot do alura book"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/Liderança.png"
+                alt="Livro sobre liderança em desing da alura books"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/Guia Front-end.png"
+                alt="Livro sobre Front-end do alura books"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/Portugol.png"
+                alt="Livro sobre Portugol do alura books"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/Javascript.png"
+                alt="Livro sobre Javascript do alura books"
+              />
+            </div>
           </div>
-          <div class="swiper-slide">
-            <img
-              src="img/Liderança.png"
-              alt="Livro sobre liderança em desing da alura books"
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              src="img/Guia Front-end.png"
-              alt="Livro sobre Front-end do alura books"
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              src="img/Portugol.png"
-              alt="Livro sobre Portugol do alura books"
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              src="img/Javascript.png"
-              alt="Livro sobre Javascript do alura books"
-            />
-          </div>
-        </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
 
-        <!-- If we need scrollbar
+          <!-- If we need scrollbar
             <div class="swiper-scrollbar"></div> -->
-      </div>
-
-      <div class="card">
-        <!--primeira linha-->
-        <div class="card__descricao">
-          <!--primeira coluna-->
-          <div class="descricao">
-            <h3 class="descricao__titulo">
-              Talves você também se interesse por...
-            </h3>
-            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-            <p class="descricao__texto">
-              Construindo uma aplicação Integrada com a plataforma do Google.
-            </p>
-          </div>
-          <!--segunda coluna-->
-          <img
-            src="img/Angular.png"
-            class="descricao__imagem"
-            alt="Logo do Angular"
-          />
         </div>
-        <!--segunda linha-->
-        <div class="card__botoes">
-          <!--primeira coluna-->
-          <ul class="botoes">
-            <li class="botoes__item">
-              <img src="img/Favoritos.svg" alt="Favoritar livro" />
-            </li>
-            <li class="botoes__item">
-              <img src="img/Compras.svg" alt="Adicionar no carrinho" />
-            </li>
-          </ul>
-          <!--segunda coluna-->
-          <a href="#" class="botoes__ancora">Saiba mais</a>
+
+        <div class="card">
+          <!--primeira linha-->
+          <div class="card__descricao">
+            <!--primeira coluna-->
+            <div class="descricao">
+              <h3 class="descricao__titulo">
+                Talves você também se interesse por...
+              </h3>
+              <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+              <p class="descricao__texto">
+                Construindo uma aplicação Integrada com a plataforma do Google.
+              </p>
+            </div>
+            <!--segunda coluna-->
+            <img
+              src="img/Angular.png"
+              class="descricao__imagem"
+              alt="Logo do Angular"
+            />
+          </div>
+          <!--segunda linha-->
+          <div class="card__botoes">
+            <!--primeira coluna-->
+            <ul class="botoes">
+              <li class="botoes__item">
+                <img src="img/Favoritos.svg" alt="Favoritar livro" />
+              </li>
+              <li class="botoes__item">
+                <img src="img/Compras.svg" alt="Adicionar no carrinho" />
+              </li>
+            </ul>
+            <!--segunda coluna-->
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+          </div>
         </div>
       </div>
     </section>
+
     <section class="carrossel">
       <h2 class="carrossel__titulo">Mais vendidos</h2>
       <!-- Slider main container -->
+      <div class="carrossel__container">
       <div class="swiper">
         <!-- Additional required wrapper -->
         <!-- If we need pagination -->
@@ -319,6 +323,7 @@
           <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
+    </div>
     </section>
     <section class="topicos">
       <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
@@ -327,6 +332,7 @@
           .
           <a href="#" class="topicos__link">Android</a>
         </li>
+        
         <li class="topicos__item">
           .
           <a href="#" class="topicos__link">Marketing Digital</a>
